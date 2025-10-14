@@ -5,11 +5,17 @@
 </div>
 
 
-## Environment Setup
+## Getting started
 
+### Environment Setup
 
+1. clone the repository
 
-To install the required dependencies, run the following command:
+```bash
+git clone https://github.com/shamy28/Benford-Curse.git && cd Benford-Curse
+```
+
+2. install dependencies
 
 ```bash
 pip install -r requirements.txt
