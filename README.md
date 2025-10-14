@@ -23,10 +23,19 @@ pip install -r requirements.txt
 
 
 ## Datasets
-The datasets used in this paper are located in the `Datasets/` directory of the supplementary material ZIP file. The directory contains the following files and directory:
-- `digit bias benchmark`: Seven tasks on digit bias.
-- `identification_lastbig.csv`: This file is used for identification tasks.
-- `identification_lastsmall.csv`: This file is used for identification tasks.
+
+
+The datasets used in this paper are located in the `Datasets/` directory. The directory contains the following files and directory:
+
+### Identification Task
+
+Both files contain 100 numerical sequences, each with the same configuration except for the last term. 
+
+- `identification_lastbig.csv`
+- `identification_lastsmall.csv`
+
+### Digit Bias Benchmark
+ Seven tasks on digit bias.
 
 
 ## Neuron_Bias
@@ -51,4 +60,16 @@ To run the model for a specified task, use the following command:
 
 ```bash
 python model_generation_pruned.py --model_name llama27b --task evaluate --output_path "~/your_path"
+```
+
+
+## Citation
+
+```
+@article{shao2025benford,
+  title={Benford's Curse: Tracing Digit Bias to Numerical Hallucination in LLMs},
+  author={Shao, Jiandong and Lu, Yao and Yang, Jianfei},
+  journal={arXiv preprint arXiv:2506.01734},
+  year={2025}
+}
 ```
