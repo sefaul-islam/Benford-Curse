@@ -1,5 +1,8 @@
-# Benford's Curse: Tracing Digit Bias to Numerical Hallucination in LLMs
+<div align=center>
 
+# **[Neurips 2025]** Benford's Curse: Tracing Digit Bias to Numerical Hallucination in LLMs
+
+</div>
 
 
 ## Environment Setup
